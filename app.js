@@ -16,7 +16,6 @@ hbs.registerPartials(path.join(__dirname, '/views/partials'));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', beersRouter);
-// app.use('/random-beers', randomBeersRouter);
 
 // -- 404 and error handler
 
